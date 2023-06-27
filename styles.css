@@ -2,12 +2,16 @@
     font-family: 'Lato', sans-serif;
     margin: 0;
     list-style-type: none;
+    overflow: hidden;
     text-decoration: none;
 }
 
 body {
     text-transform: capitalize;
     background-color: e5e5e5;
+    width: 100%;
+    overflow: scroll;
+    height: 100vh;
 }
 
 html {
@@ -19,87 +23,191 @@ nav {
   justify-content: center;
   align-items: center;
 }
-  .first-li {
-   background-color: #454545;
-   width: 100%;
-   display: flex;
-   justify-content: flex-end;
-   padding-right: 3%;
-   font-size: 19px;
-   color: #fff;
-   float: left;
-   gap: 1.5%;
-   padding-top: 0.2%;
-   padding-bottom: 0.2%;
-  }
 
-  .first-li li a {
-    color: #fff;
-   
-  }
-.second-item {
+.logo {
+  display: none;
+}
+
+.mobi-logo {
+  background-color: #e5e5e5;
+}
+
+.first-li , .second-li {
+  display: none;
+}
+  
+.container {
+  background-image: url('./images/pexels-mart-production-7605971.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10 -90px;
   width: 100%;
-  height: 10dvh;
+  height: 100vh;
 }
 
-.second-li {
-    padding-top: 1%;
-    padding-bottom: 2%;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 22px;
-    color: #fff;
-    font-weight: 400;
-    padding-left: 25%;
-  }
-
-.second-li a:hover {
-  color: rebeccapurple;
+.card-1 {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 4%;
+  padding-top: 10%;
 }
-  .active {
-   color: rgb(227, 36, 19);
-  }
 
-  .container {
-    display: grid;
-    grid-column: 1fr;
-    gap: 12.8rem;
-    background-color: #e5e5e5;
-  }
+.logo-1 {
+  width: 9%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
-  .card-1 {
-    background-image: url('./images/pexels-mart-production-7605971.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-  }
+.heading-1 {
+  color:  #ec5242;
+  padding-bottom: 2.3%;
+  font-size: 21px;
+  font-weight: 300;
+}
 
-  .introductory  {
-    padding-top: 6%;
-    display: flex;
-    flex-direction: column;
-    justify-content: safe;
+.heading-2 {
+  color:  #ec5242;
+  font-size: 32;
+  font-weight: 700;
+}
+
+.article-1 {
+  padding: 4%;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  border: 3px solid #fff;
+  margin: 1%;
+  background-color: rgba(232, 232, 232, 0.9);
+}
+
+.next {
+  color: #ccc2c2d4;
+}
+
+.h-next {
+  font-size: 19px;
+  font-weight: 900;
+  padding-bottom: 5%;
+}
+
+.h-next-1 {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 2%;
+  padding-top: 3%;
+}
+
+.programms {
+  background-color: #272a31;
+  width: 100%;
+  height: 100vh;
+  background-image: url('./images/5594016.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  color: #100f0f;
+  font-size: 20px;
+  font-weight: 100;
+  padding-top: 10%;
+  padding-bottom: 1.5%;
+}
+
+.red-line{
+  background: red;
+  width: 14%;
+  border-bottom: 1.3px solid red;
+  margin-left: 42%;
+  margin-right: 80%;
+}
+
+/*  desktop version styles start */
+  @media (min-width :768px){
+
     
-  }
-
-  .heading {
-    padding-left: 7%;
-    color: #c43c3c;
-    font-weight: 700;
-    font-size: 32px;
-    padding-top: 1.2%;
-  }
-
-  .article-1 {
-    border: 2px solid gray;
-    border-width: 2%;
-    margin: 0;
-    border-width: 20%;
-    padding-left: 7%;
-    background-color: #ddd1d1c8;
-    color: #272323;
+  .first-li {
+    background-color: #454545;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3%;
     font-size: 19px;
-    font-size: 400;
+    color: #fff;
+    float: left;
+    gap: 1.5%;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+   }
+ 
+   .first-li li a {
+     color: #fff;
+   }
+ 
+ .second-item {
+   width: 100%;
+   height: 10dvh;
+ }
+ 
+ .second-li {
+     padding-top: 1%;
+     padding-bottom: 2%;
+     display: flex;
+     justify-content: space-evenly;
+     font-size: 22px;
+     color: #fff;
+     font-weight: 400;
+     padding-left: 25%;
+   }
+ 
+   .second-li a {
+     color: grey;
+   }
+ 
+ .second-li a:hover {
+   color: rgb(206, 22, 22);
+   border-style: inset;
+   width: 5%;
+ }
+   .active {
+    color: rgb(215, 20, 20);
+   }
+ 
+ .logo-1 {
+  display: none;
+  overflow: hidden;
+ }
+   .container {
+     display: grid;
+     grid-column: 1fr;
+     gap: 12.8rem;
+     background-color: #e5e5e5;
+   }
+ 
+   .container {
+     background-image: url('./images/pexels-mart-production-7605971.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     height: 100vh;
+   }
+ 
+   .introductory  {
+     padding-top: 6%;
+     display: flex;
+     flex-direction: column;
+     justify-content: safe;
+     
+   }
+ 
   }
