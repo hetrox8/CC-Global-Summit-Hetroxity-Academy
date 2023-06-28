@@ -1,21 +1,14 @@
 
-const hamburgerBtn = document.querySelector('.logo');
-const menu = document.querySelector('.mobile-nav');
-const closeMenu = document.querySelector('.x-icon');
-const menuOptions = menu.getElementsByTagName('li');
+const hamburgerBtn = document.getElementById('hammbuger');
+const list = document.getElementById('hammbuger-list');
+const hideElement = document.querySelectorAll('.card-1,.about,.speakers,.partners,container')
+console.log(hideElement)
 hamburgerBtn.addEventListener('click', () => {
-  menu.classList.remove('hidden');
-  menu.classList.toggle('visible');
-});
+list.style.display = 'flex'
+hamburgerBtn.style.display = 'none';
 
-closeMenu.addEventListener('click', () => {
-  menu.classList.remove('visible');
-  menu.classList.toggle('hidden');
-});
-
-for (let i = 0; i < menuOptions.length; i += 1) {
-  menuOptions[i].addEventListener('click', () => {
-    menu.classList.remove('visible');
-    menu.classList.toggle('hidden');
-  });
+for(let i =0 ;i < hideElement.length; i ++){
+ hideElement[i].style.display = 'none';
 }
+
+});

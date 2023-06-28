@@ -11,6 +11,24 @@
 body {
   background-color: #e5e5e5;
 }
+
+.ham {
+    padding: 5%;
+}
+
+.first-li {
+    display: none;
+}
+
+.heading-1 {
+    color: red;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.second-item {
+    display: none;
+}
 .abt-p {
     border: 1px solid #d3d3d3;
     color: rgba(235, 24, 24, 0.813);
@@ -34,10 +52,10 @@ body {
 
 .fin-title {
     text-align: center;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 32px;
+    font-weight: 700;
     padding: 2%;
-    color: #130e0e;
+    color: red;
 }
 
 .words2 {
