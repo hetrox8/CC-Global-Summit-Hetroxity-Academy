@@ -60,12 +60,6 @@ const speaker = [
         speakerTitle: 'a google cloud  computer engineer',
         sDetail: 'the founder  of tesla and space X . who invented elecetric vehicles and the first person to create reusable space craft',
       },
-      {
-        speakerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRriiOkMsGax7txnLXH370xfbVkfhJDgQxaZg&usqp=CAU',
-        speakerName: 'Elon musk',
-        speakerTitle: 'a google cloud  computer engineer',
-        speakerDetail: 'the founder  of tesla and space X . who invented elecetric vehicles and the first person to create reusable space craft',
-      },
      
   ];
 
