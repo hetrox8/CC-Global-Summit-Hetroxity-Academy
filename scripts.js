@@ -91,7 +91,7 @@ const speaker = [
                               <div class="guest-det">
                                  <h3>${speaker[i].speakerName}</h3>
                                  <h4>${speaker[i].speakerTitle}</h4>
-                                 <p>${speaker[i].speakerDetail}</p>
+                                 <p>${speaker[i].sDetail}</p>
                              </div>
                           </articile>`;
     }
