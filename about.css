@@ -12,10 +12,9 @@ body {
   background-color: #e5e5e5;
 }
 
-.ham {
-    padding: 5%;
-    background-color: #ffff;
-    width: 95%;
+.ham  img{
+  width: 45px;
+  padding: 2%; 
 }
 
 .first-li {
@@ -23,9 +22,25 @@ body {
 }
 
 .heading-1 {
-    color: red;
-    font-size: 23px;
-    font-weight: 700;
+    padding-bottom: 2.3%;
+    font-size: 26px;
+    font-weight: 400;
+    /* line-height: 5px; */
+    margin: 20px 0;
+    color: #ec5242;
+    font-family: 'lato', sans-serif; 
+}
+
+.heading-2 {
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'COCOGOOSE', serif;
+    background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(images/sun.jpg);
+    background-repeat: repeat;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 46px;
 }
 
 .second-item {
@@ -119,11 +134,6 @@ text-align: center;
 .pt-lg img  {
     width: 82.667px;
     height: 31px;
-}
-
-
-.part {
-  
 }
 
 .red-line {

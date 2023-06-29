@@ -54,10 +54,8 @@ nav {
 }
 
 .logo-1 {
-  width: 9%;
-  padding-left: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  width: 40px;
+  padding: 3px;
 }
 
 .un-k {
@@ -74,16 +72,23 @@ nav {
 }
 
 .heading-1 {
-  color:  #ec5242;
-  padding-bottom: 2.3%;
-  font-size: 21px;
-  font-weight: 300;
+  font-size: 26px;
+  font-weight: 400;
+  /* line-height: 5px; */
+  color: #ec5242;
+  font-family: 'lato', sans-serif;
 }
 
 .heading-2 {
-  color:  #ec5242;
-  font-size: 32;
-  font-weight: 700;
+  font-size: 35px;
+    font-weight: 900;
+    font-family: 'COCOGOOSE', serif;
+    background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(images/sun.jpg);
+    background-repeat: repeat;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 46px;
 }
 
 .article-1 {
@@ -224,6 +229,7 @@ height: 51.733px;
 
 .lect{
   display: flex;
+  flex-direction: column;
 align-items: center;
 gap: 11.595px;
 color: #d74c3a;
@@ -447,8 +453,9 @@ hr  , .o-c-1 {
 }
 
 /*  desktop version styles start */
-  @media (min-width :768px){   
-    
+  @media (min-width :768px){
+
+ 
     .guest-menu {
       width: 100%;
       display: grid;
@@ -543,5 +550,75 @@ height: 51px;
      justify-content: safe;
      
    }
- 
+
+   .heading-1 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 5;
+    color: #ec5242;
+    font-family: 'lato', sans-serif;
+   }
+  
+  .heading-2 {
+    font-size: 35px;
+      font-weight: 900;
+      font-family: 'COCOGOOSE', serif;
+      background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(images/sun.jpg);
+      background-repeat: repeat;
+      background-clip: border-box;
+      -webkit-background-clip: text;
+      color: transparent;
+      line-height: 46px;
   }
+
+  .intro {
+        /* border: 4px solid white; */
+        margin: 20px 0;
+        padding: 10px;
+        color: #010101;
+        /* background-color: #f6f6f7; */
+        max-width: 900px;
+        font-family: 'lato', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: -0.01em;
+    }
+
+    .program-card {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      gap: 8.919px;
+  }
+
+  .pro-img {
+    width: 40px;
+  }
+
+  .lecturer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11.595px;
+    border: 1px solid gray;
+    background: grey;
+  }
+
+  .lec-p {
+    text-align: center;
+    color: #FFF;
+    font-size: 10.703px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.299px;
+    letter-spacing: 0.642px;
+    
+  }
+   }
+  }   
+    
