@@ -446,7 +446,14 @@ hr  , .o-c-1 {
 }
 
 /*  desktop version styles start */
-  @media (min-width :768px){    
+  @media (min-width :768px){   
+    
+    .guest-menu {
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 32px;
+  }
   .first-li {
     background-color: #454545;
     width: 100%;
@@ -467,14 +474,11 @@ hr  , .o-c-1 {
  
  .second-item {
   display: flex;
-height: 75px;
-padding: 0px 198px 0px 209px;
-justify-content: center;
+padding: 20px;
+justify-content: space-between;
 align-items: center;
-gap: 232px;
 flex-shrink: 0;
 align-self: stretch
-  
  }
  
  .second-li {
