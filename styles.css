@@ -346,6 +346,7 @@ hr  , .o-c-1 {
 
 .speaker {
   display: flex;
+  gap: 20px;
 }
 
 .speakers {
@@ -361,12 +362,16 @@ hr  , .o-c-1 {
   padding-top: 2%;
 }
 
+.target img {
+  width: 150px;
+  height: 150px;
+}
+
 .guest-menu {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 20px;
   text-transform: cpaitalize;
 }
@@ -401,7 +406,7 @@ hr  , .o-c-1 {
   background-size: 50%;
   padding-top: 10px;
   padding-left: 10px;
-  width: 85%;
+  width: 150%;
 }
 
 .nn {
