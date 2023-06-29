@@ -75,11 +75,11 @@ const speaker = [
   
     for (let i = 2; i < speaker.length; i += 1) {
       guest.innerHTML += `<article class="guest">
-                              <div class="target"><img src="${singers[i].singerImage}" alt="card-singer-image"></div>
+                              <div class="target"><img src="${speaker[i].speakerImage}" alt="card-singer-image"></div>
                               <div class="guest-det">
                                  <h2>${speaker[i].speakerName}</h3>
                                  <h3>${speaker[i].speakerTitle}</h4>
-                                 <p>${speaker[i].speakerDetail}</p>
+                                 <p>${speaker[i].sDetail}</p>
                               </div>
                            </article>`;
     }
