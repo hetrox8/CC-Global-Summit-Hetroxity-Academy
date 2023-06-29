@@ -25,7 +25,7 @@ nav {
 }
 
 .logo {
-  display: none;
+  display: inline-block;
 }
 
 .mobi-logo {
@@ -58,6 +58,19 @@ nav {
   padding-left: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
+}
+
+.un-k {
+  display: none;
+}
+
+.x-icon {
+  background-color: red;
+  display: none;
+  right: 20px;
+  position: absolute;
+  top: 30px;
+  width: 30px;
 }
 
 .heading-1 {
@@ -128,18 +141,120 @@ nav {
   border-bottom: 1.3px solid red;
   margin-left: 42%;
   margin-right: 80%;
+  padding-top: -1%;
+  margin-top: -4%;
+  padding-bottom: 4;
+  margin-bottom: 8%;
 }
+
 
 .about {
   background-image: url('./images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  display: grid;
-  grid-row-gap: 30px;
+  display: flex;
+  width: 355px;
+  flex-direction: column;
   justify-content: center;
-  padding: 7% 2%;
+  align-items: center;
+  gap: 40px;
+  flex-shrink: 0;
 }
 
+.pp-t {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.our-c {
+  color: #FFF;
+font-size: 20px;
+font-family: Lato;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: -0.8px;
+display: flex;
+width: 122px;
+height: 17px;
+flex-direction: column;
+justify-content: center;
+}
+
+.under-line {
+  width: 30px;
+height: 2px;
+background: #A04038;
+}
+
+.programm-details {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2.676px;
+}
+
+.program-card {
+  display: flex;
+  flex-direction: column;
+width: 354.996px;
+justify-content: center;
+align-items: center;
+gap: 8.919px;
+}
+
+.lecturer {
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 11.595px;
+border: 1px solid gray;
+background: grey;
+width: 97%;
+}
+
+.pro-img {
+  width: 57.085px;
+height: 51.733px;
+}
+
+.lect{
+  display: flex;
+align-items: center;
+gap: 11.595px;
+color: #d74c3a;
+}
+
+.lec {
+  color: #FF5438;
+font-size: 14.271px;
+font-family: Lato;
+font-style: normal;
+font-weight: 700;
+line-height: 24.975px;
+letter-spacing: -0.143px;
+}
+
+
+.lec-p {
+  color: #FFF;
+font-size: 10.703px;
+font-family: Lato;
+font-style: normal;
+font-weight: 700;
+line-height: 22.299px;
+letter-spacing: 0.642px;
+display: flex;
+width: 191.769px;
+height: 82.059px;
+flex-direction: column;
+justify-content: center;
+}
 .all-courses {
   display: flex;
   flex-direction: column;
@@ -174,8 +289,9 @@ nav {
 
 .g-p {
   font-weight: 400;
-  font-size: 16px;
-  color: red;
+  font-size: 14px;
+  padding: 2%;
+  color: black;
 }
 
 .gest-p {
@@ -183,9 +299,6 @@ nav {
   font-size: 21px;
 }
 
-.g-h {
-
-}
 
 .lop {
   width: 37%;
@@ -218,16 +331,9 @@ hr  , .o-c-1 {
   width: 16vh;
 }
 
-.
-
-.big {
-  background: red;
- 
-}
 .big-p {
   color: #fff;
 }
-
 
  button {
     width: 200px;
@@ -286,11 +392,23 @@ hr  , .o-c-1 {
 .target {
   display: flex;
   background-position: left top;
+  background-image: url('./images/chessbg.jpg');
   background-repeat: no-repeat;
   background-size: 50%;
   padding-top: 10px;
   padding-left: 10px;
+  width: 85%;
 }
+
+.nn {
+  font-size: 17px;
+  color: red;
+  font-weight: 400;
+  padding: 3%;
+  font-style: italic;
+}
+
+.g-p
 
 .elon {
   width: 140%;
@@ -334,23 +452,31 @@ hr  , .o-c-1 {
    }
  
  .second-item {
-   width: 100%;
-   height: 10dvh;
+  display: flex;
+height: 75px;
+padding: 0px 198px 0px 209px;
+justify-content: center;
+align-items: center;
+gap: 232px;
+flex-shrink: 0;
+align-self: stretch
+  
  }
  
  .second-li {
-     padding-top: 1%;
-     padding-bottom: 2%;
+     
      display: flex;
-     justify-content: space-evenly;
-     font-size: 22px;
-     color: #fff;
-     font-weight: 400;
-     padding-left: 25%;
+justify-content: center;
+align-items: center;
+gap: 65px;
    }
  
    .second-li a {
      color: grey;
+   }
+
+   .mobi-logo {
+    display: none;
    }
  
  .second-li a:hover {
@@ -365,6 +491,15 @@ hr  , .o-c-1 {
  .logo-1 {
   display: none;
   overflow: hidden;
+ }
+
+.un-k{
+  display: none;
+}
+
+ .logo {
+  width: 130px;
+height: 51px;
  }
    .container {
      display: grid;
