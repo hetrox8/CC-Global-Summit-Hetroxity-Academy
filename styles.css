@@ -304,6 +304,7 @@ justify-content: center;
   padding-bottom: 2%;
   padding-top: 2%;
   padding-left: 17%;
+  display: none;
 }
 
 .c-pp {
@@ -374,10 +375,6 @@ hr  , .o-c-1 {
   justify-content: center;
   gap: 20px;
   text-transform: cpaitalize;
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 32px;
 
 }
 
@@ -396,6 +393,10 @@ hr  , .o-c-1 {
  color: #000;
  text-decoration: none;
  font-size: 25px;
+}
+
+.second-item {
+  display: none;
 }
 
 .guest {
