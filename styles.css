@@ -374,6 +374,11 @@ hr  , .o-c-1 {
   justify-content: center;
   gap: 20px;
   text-transform: cpaitalize;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 32px;
+
 }
 
 .list-1 {
