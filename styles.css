@@ -434,14 +434,6 @@ footer {
     gap: 32px;
   }
 
-  .second-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.7rem 7rem;
-  }
-
   .second-li li {
     border: 4px solid #fff;
     padding: 0.9rem;
