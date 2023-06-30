@@ -23,6 +23,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 .about-page {
   display: flex;
   flex-direction: column;
@@ -30,10 +31,6 @@ nav {
   justify-content: center;
   padding: 20px;
   gap: 10px;
-}
-
-body {
-  background-color: #fff;
 }
 
 .ham img {
@@ -265,6 +262,10 @@ body {
     justify-content: center;
   }
 
+  .frame-1 {
+    background: #f7f7f8;
+  }
+
   .first-li {
     background-color: #454545;
     width: 100%;
@@ -283,7 +284,7 @@ body {
   .second-item {
     display: flex;
     padding: 20px;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
     align-self: stretch;
@@ -291,6 +292,7 @@ body {
   }
 
   .second-item img {
+    display: flex;
     width: 130px;
     height: 51px;
   }
@@ -299,7 +301,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 65px;
+    gap: 41px;
     list-style: none;
   }
 
