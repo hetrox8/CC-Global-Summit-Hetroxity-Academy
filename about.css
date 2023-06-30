@@ -235,6 +235,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    padding: 5%;
     margin-top: 20px;
     justify-content: center;
   }
@@ -254,11 +255,10 @@ body {
     list-style: none;
   }
 
-
   .second-item {
     display: flex;
     padding: 20px;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     flex-shrink: 0;
     align-self: stretch;
